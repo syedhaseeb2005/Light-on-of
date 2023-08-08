@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(2, 2, 89);
+}
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 100px;  
+}
+h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.btn-1{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-2{
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+}
